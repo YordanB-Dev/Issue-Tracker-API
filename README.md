@@ -174,4 +174,4 @@ This project was built as part of my backend development learning journey to pra
 
 ## License
 
-No license has been specified yet.
+Yordan Borisov
