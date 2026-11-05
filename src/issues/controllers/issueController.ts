@@ -37,7 +37,7 @@ export const issueController = {
         const id = Number(req.params.id);
         const created_by = (req as any).user.id;
         const result = await issueService.deleteIssue(created_by, id);
-        return res.status(201).json(result);
+        return res.status(200).json(result);
     })
 };
 
